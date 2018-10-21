@@ -16,7 +16,7 @@
 'use strict';
 
 const path = require(`path`);
-const {Storage} = require(`@google-cloud/storage`);
+const Storage = require(`@google-cloud/storage`).Storage;
 const test = require(`ava`);
 const tools = require(`@google-cloud/nodejs-repo-tools`);
 const uuid = require(`uuid`);
